@@ -4,7 +4,10 @@ $base-padding: 16px;
 $background-color: $color-orange;
 
 .root {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   color: white;
 }
@@ -21,6 +24,7 @@ $background-color: $color-orange;
   padding-left: $base-padding;
   padding-right: 2 * $base-padding;
   border-bottom-right-radius: 2 * $base-padding;
+  font-family: $font-header;
 }
 
 .middle {
