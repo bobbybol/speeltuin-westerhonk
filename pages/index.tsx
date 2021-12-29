@@ -7,7 +7,10 @@ import SiteFooter from '../components/SiteShell/SiteFooter';
 const Home: NextPage = () => {
   return (
     <>
-      <SiteHeader />
+      <div>
+        lalalalala
+      </div>
+
       {/* <SiteFooter /> */}
     </>
   );

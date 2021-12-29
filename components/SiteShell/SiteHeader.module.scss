@@ -1,8 +1,12 @@
+@import '../../styles/variables.scss';
+
 $base-padding: 16px;
+$background-color: $color-orange;
 
 .root {
   position: relative;
   display: flex;
+  color: white;
 }
 
 .left,
@@ -13,7 +17,7 @@ $base-padding: 16px;
 }
 
 .left {
-  background: hotpink;
+  background: $background-color;
   padding-left: $base-padding;
   padding-right: 2 * $base-padding;
   border-bottom-right-radius: 2 * $base-padding;
@@ -25,14 +29,14 @@ $base-padding: 16px;
   overflow-x: hidden;
 
   &Inner {
-    background: hotpink;
+    background: $background-color;
     height: $base-padding;
     box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.5);
   }
 }
 
 .right {
-  background: hotpink;
+  background: $background-color;
   padding-left: 2 * $base-padding;
   padding-right: $base-padding;
   border-bottom-left-radius: 2 * $base-padding;
